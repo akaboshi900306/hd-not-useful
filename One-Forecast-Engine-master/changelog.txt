@@ -1,0 +1,19 @@
+0.1.0:
+	Initial Release
+
+0.1.1:
+	Breaks out aggLevel into individual columns
+	Option to replace forecast3 value with forecast4 for ensemble
+	fix JSCloudPath causing missing error input
+	dont need tick marks for input table name
+	made dictionaries copies instead of clones or having the same dictionary for separate operations
+
+0.1.2:
+	removed Cloud SDK warning
+	Date input restricted to dropdown of fscl_wk_end_dt and cal_dt
+	Options for daily forecasts (experimental)
+	fixed errors with export function
+	last run is stored locally to allow later features to be run in a separate session
+	ability to choose output table name
+	adjusted potential overforecasting from low volume input data sets
+	most tables set to auto delete after 1 day
